@@ -78,6 +78,15 @@ body {
   text-decoration: none;
 }
 
+.nav-list a:hover::after,
+.nav-list a:focus::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid var(--blue);
+  position: relative;
+  top: 32px;
+}
+
 .nav-list a:hover,
 .nav-list a:focus {
   color: var(--blue);
@@ -211,7 +220,30 @@ body {
   justify-content: space-evenly;
   gap: 30px;
 }
+.position-relative {
+  position: relative;
+}
+.position-relative > .aplications {
+  position: absolute;
+  top:224px;
+  
 
+}
+.aplications {
+  background: rgba(47, 48, 58, 0.8);
+  width: 370px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white);
+}
 .team {
   background-color: #f5f4fa;
   display: flex;
@@ -265,7 +297,6 @@ body {
   fill: var(--white);
   border-radius: 50%;
 }
-
 
 .item-social:hover {
   fill: var(--white);
@@ -404,7 +435,7 @@ body {
 .client-box {
   cursor: pointer;
 }
-.client-box:focus{
+.client-box:focus {
   border-color: #2196f3;
 }
 .icon-client:hover {
@@ -412,8 +443,7 @@ body {
   border-color: var(--blue);
 }
 
-
-.link-svg:focus > .icon-client{
+.link-svg:focus > .icon-client {
   fill: var(--blue);
   border-color: var(--blue);
 }
