@@ -436,13 +436,12 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   width: 370px;
   z-index: -1;
-  
 }
 
 .portfolio-position:hover .technocrack-container {
   cursor: pointer;
   transform: translateY(0);
- z-index: 1;
+  z-index: 1;
 }
 
 .our-clients {
@@ -568,43 +567,41 @@ body {
   vertical-align: middle;
 }
 
-.modal{
-  cursor:not-allowed;
+.modal {
+  cursor: not-allowed;
   background-color: rgba(0, 0, 0, 0.2);
-  position:fixed;
-  display:flex;
-    left:0;
-    top:0;
-    bottom:0;
-    right:0;
+  position: fixed;
+  display: flex;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
 }
-.box{
+.box {
   position: relative;
   background: var(--white);
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 4px;
- 
-  width:528px;
-  height:581px;
-  margin:auto;
-  cursor:initial
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 
+  width: 528px;
+  height: 581px;
+  margin: auto;
+  cursor: initial;
 }
-.close{
-  cursor:pointer;
+.close {
+  cursor: pointer;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--white);
-  width:30px;
+  width: 30px;
   height: 30px;
   border-radius: 50%;
   position: absolute;
-  top:8px;
-  right:8px;
-  
+  top: 8px;
+  right: 8px;
 }
-.is-hidden{
-  opacity:0;
+.is-hidden {
+  opacity: 0;
   visibility: hidden;
-  pointer-events:none ;
-
+  pointer-events: none;
 }
