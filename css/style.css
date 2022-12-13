@@ -367,7 +367,6 @@ body {
   padding-top: 20px;
   border: 1px solid #eee;
   border-top: none;
-
 }
 
 .portfolio figure {
@@ -434,6 +433,7 @@ body {
   position: absolute;
   transform: translateY(100%);
   transition: transform 250ms ease;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   width: 370px;
   z-index: -1;
   
