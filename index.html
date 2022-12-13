@@ -51,7 +51,7 @@
         <div class="container">
           <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
 
-          <input class="button-index" type="button" value="Zamów usługę" />
+          <button class="button-index" type="button" data-modal-open>Zamów usługę</button>
         </div>
       </section>
       <section class="section">
@@ -601,5 +601,12 @@
         </div>
       </div>
     </footer>
+    <!-- okno modalne -->
+    <div class="modal is-hidden" data-modal>
+      <div class="box">
+        <button type="button" class="close" data-modal-close>X</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

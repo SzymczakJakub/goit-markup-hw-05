@@ -154,7 +154,7 @@ body {
   width: 696px;
   margin: 106px 252px 0 252px;
 }
-.page-theme input {
+.page-theme button {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
@@ -566,4 +566,45 @@ body {
 
 .icon-footer {
   vertical-align: middle;
+}
+
+.modal{
+  cursor:not-allowed;
+  background-color: rgba(0, 0, 0, 0.2);
+  position:fixed;
+  display:flex;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+}
+.box{
+  position: relative;
+  background: var(--white);
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+ 
+  width:528px;
+  height:581px;
+  margin:auto;
+  cursor:initial
+
+}
+.close{
+  cursor:pointer;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--white);
+  width:30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top:8px;
+  right:8px;
+  
+}
+.is-hidden{
+  opacity:0;
+  visibility: hidden;
+  pointer-events:none ;
+
 }
