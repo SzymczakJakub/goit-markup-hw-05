@@ -81,16 +81,14 @@ body {
   display: block;
 }
 
-.nav-list a:hover::after,
-.nav-list a:focus::after {
+.active::after {
   content: "";
   position: absolute;
-  top: 45px;
+  display: block;
+  top: 43px;
   width: 100%;
   height: 4px;
-  left: 0;
   background-color: var(--blue);
-  transform: background-color;
   border-radius: 2px;
 }
 
@@ -610,7 +608,6 @@ body {
   animation-name: slideDown;
   animation-duration: 2.5s;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  animation-fill-mode: backwards;
 }
 @keyframes slideDown {
   0% {
